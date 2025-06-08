@@ -1,4 +1,4 @@
-This layer is a fork of (meta-sdr)[https://github.com/balister/meta-sdr]!
+This layer is a fork of [meta-sdr](https://github.com/balister/meta-sdr)!
 
 This layer depends on:
 
