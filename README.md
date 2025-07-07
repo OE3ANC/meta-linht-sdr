@@ -10,10 +10,6 @@ URI: git://github.com/openembedded/meta-openembedded.git
 branch: master
 revision: HEAD
 
-URI: https://github.com/meta-qt5/meta-qt5.git
-branch: master
-revision: HEAD
-
 From meta-openembedded, you need the following layers:
 meta-oe
 meta-filesystems

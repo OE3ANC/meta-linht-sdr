@@ -52,7 +52,7 @@ GR_PACKAGES = "gnuradio-analog gnuradio-audio gnuradio-blocks \
             gnuradio-channels gnuradio-ctrlport gnuradio-digital gnuradio-fec gnuradio-fft \
             gnuradio-filter gnuradio-gru \
             gnuradio-gr-utils \
-            gnuradio-modtool gnuradio-noaa gnuradio-pager gnuradio-pmt \
+            gnuradio-modtool gnuradio-noaa gnuradio-pager gnuradio-pmt gnuradio-m17\
             gnuradio-runtime \
             gnuradio-trellis gnuradio-uhd gnuradio-vocoder \
             gnuradio-volk gnuradio-volk-modtool gnuradio-wavelet \

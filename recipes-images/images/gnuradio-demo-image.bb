@@ -17,6 +17,7 @@ CORE_IMAGE_EXTRA_INSTALL += "\
     gr-air-modes \
     gr-ais \
     gr-foo \
+    gr-m17 \
     gr-ieee80211 \
     gr-lora-sdr \
     gr-osmosdr \
