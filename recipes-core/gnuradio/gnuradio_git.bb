@@ -8,6 +8,10 @@ DEPENDS = "volk gsl fftw python3 python3-six-native alsa-lib boost \
            python3-mako-native git-native gmp libsndfile1 \
            python3-packaging-native"
 
+# Needed for vocoder
+DEPENDS += "codec2"
+
+
 #Available PACKAGECONFIG options are qtgui5 grc uhd logging orc ctrlport zeromq staticlibs
 PACKAGECONFIG ??= "zeromq"
 
@@ -223,7 +227,7 @@ EXTRA_OECMAKE = "\
                  -DENABLE_GR_DTV=OFF \
                  -DENABLE_SPHINX=OFF -DENABLE_DOXYGEN=OFF \
                  -DENABLE_ORC=OFF \
-                 -DENABLE_GR_VOCODER=OFF \
+                 -DENABLE_GR_VOCODER=ON \
                  -DENABLE_INTERNAL_VOLK=OFF \
                  ${@bb.utils.contains('TUNE_FEATURES', 'neon', \
                      '-Dhave_mfpu_neon=1', '-Dhave_mfpu_neon=0', d)} \
